@@ -1,0 +1,31 @@
+  /*--- Background 1 ---*/
+  .fondo-Slider{
+    background: url("imgs/headerConsultorias.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    z-index: -2;
+
+  }
+  /*----- Footer 1 -----*/
+  .footer-color {
+      background-color: #252525;
+      color: #7e7e7e;
+      padding: 55px 0px 0 0;
+      margin-bottom: 0px
+  }
+
+  footer h4 {
+      font-size: 16px;
+      color:red;
+      text-transform: uppercase;
+  }
+  footer p {
+      font-size: 13px;
+      color: #a0a0a0;
+  }
+  .contact-details {
+      list-style: none;
+      margin: 0;
+      padding: 0
+  }
