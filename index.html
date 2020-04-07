@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- Scrop Font Awesome --->
+	<script src="https://kit.fontawesome.com/da1e7ed989.js" crossorigin="anonymous"></script>
 	<!--
 	METADATOS E INFORMACIÓN PARA NAVEGADORES
 	Y MOTORES DE BÚSQUEDA AQUÍ SE DEFINEN
@@ -10,55 +12,43 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Iterdux Consultorías</title>
-<!--
-LA DESCRIPCIÓN ES LA INFORMACIÓN QUE APARECERÁ
-DEBAJO DEL ENLACE DE LA PÁGINA EN EL BUSCADOR
--->
-<meta name="description" content="Somos una firma de asesoría empresarial integral para micros y pequeñas empresas, del giro comercial en los sectores de salud, alimentación y belleza. Brindamos un acompañamiento personalizado y servicios complementarios. Buscamos reducir el drama de tu negocio y acelerar la curva de crecimiento. "  />
-<!--
-DEFINIR PALABRAS CLAVE DE BÚSQUEDA CON DAVID LARES
--->
+<!-- LA DESCRIPCIÓN ES LA INFORMACIÓN QUE APARECERÁ DEBAJO DEL ENLACE DE LA PÁGINA EN EL BUSCADOR -->
+<meta name="description" content="Somos una firma de asesoría empresarial integral para micros y pequeñas empresas,
+del giro comercial en salud, alimentación y belleza."/>
+<!-- DEFINIR PALABRAS CLAVE DE BÚSQUEDA CON DAVID LARES -->
 <meta name="keywords" content="iterdux, consultorias gdl, consultorias guadalajara,
 consorcio especializado azul sc, iterdux consultorias, consultorias empresariales,
-servicios empresariales, consultorias empresas">
+servicios empresariales, consultorias empresas, consultorias empresas guadalajara,
+consultorias empresariales guadalajara, servicios empresariales guadalajara">
 <meta name="author" content="Mouster Studio">
-<!--
-EXACTAMENTE EN ESTE PUNTO ES DONDE SE DEFINE QUÉ
-ARCHIVO SERÁ EL QUE PORTE EL DISEÑO. SE DEBE DIVIDIR POR CLASES
--->
-
-<!--
-ENLACES PARA CDN BOOTSTRAP 4 Y EL ARCHIVO CSS DE TODO EL SITIIO
--->
+<!-- EXACTAMENTE EN ESTE PUNTO ES DONDE SE DEFINE QUÉ ARCHIVO SERÁ EL QUE PORTE EL DISEÑO. SE DEBE DIVIDIR POR CLASES -->
+<!-- ENLACES PARA CDN BOOTSTRAP 4 Y EL ARCHIVO CSS DE TODO EL SITIIO -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" href="/css/master.css">
+<!-- Custom stylesheet -->
+<link rel="stylesheet" href="/estilo.css">
 <!--
 Clases CSS modificadas para cambiar el color
 del texto en navbar por el RGB equivalente
 en Hex del logo de Iterdux
 -->
-<!--<style >
-	.navbar-light .navbar-nav .navbar-link{
-		color: #612771 !important;
-	}
-</style>-->
 </head>
 <body>
 	<!--Start Navegarion Menu-->
-	<div id=barraDeNavegacion>
-		<nav class="navbar navbar-expand-md navbar-success bg-light">
+	<div class="container-fluid navbar-success bg-light fixed-top">
+		<nav class="navbar navbar-expand-md" role="navigation">
 			<!--SOLICITAR VARIANTES DE TAMAÑOS DE LOGO, PNG's, FAVICON-->
 			<a class="navbar-brand" href="index.html">
-				<img src="logos/ITERDUXpng.png" width="50" height="45"alt="iterdux_logo">
+				<img src="../logos/ITERDUXpng.png" width="50" height="45"alt="iterdux_logo">
 				Iterdux</a>
 
-			<!--PERMITE MOSTRAR UN BOTON EN EL NAVBAR CUANDO LA PANTALLA
-			ES DEMASIADO PEQUEÑA PARA MOSTRAR EL MENU COMPLETO -->
-			<button class="navbar-toggler navbar-toggler-right collapsed navbar-light" type="button" data-toggle="collapse"
-			data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-			aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+				<!--PERMITE MOSTRAR UN BOTON EN EL NAVBAR CUANDO LA PANTALLA
+				ES DEMASIADO PEQUEÑA PARA MOSTRAR EL MENU COMPLETO -->
+				<button class="navbar-toggler navbar-toggler-right collapsed navbar-light" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon "></span>
+			</button>
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto">
@@ -93,22 +83,62 @@ en Hex del logo de Iterdux
 	</div>
 	<!--END Navegation Menu-->
 
-<!--Start of Content-->
-<div>
-	<p>Aquí va todo el texto, contenido e información</p>
-</div>
+	<!--Start header Slider-->
+	<div class="container-fluid fondo-Slider">
+		<div class="container text-center">
+			<!--titulo de la pagina-->
+		</div>
 
-<!--Start Footer-->
-	<div class="text-center">
-		<p>©<script type="text/javascript">
-		document.write(new Date().getFullYear());
-		</script> <a href="index.html" > Iterdux.</a> Todos los derechos reservados. Desarrollado por Mouster Studio</p>
 	</div>
-	<!--End Footer-->
+	<!--End Header Slider-->
+
+	<!--Start of Content-->
+	<div>
+		<p>Aquí va todo el texto, contenido e información</p>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</div>
+	<!-- Enf of Content-->
+
+	<!--Start Footer-->
+	<footer class="footer bg-dark text-light">
+		<div class="footer-color">
+			<div class="container">
+						<h4>Contáctanos ahora!</h4>
+						<ul class="contact-details">
+							<li>
+								<p><i class="icon ion-ios-location-outline highlight">
+								</i> Calle Lerdo de Tejada #2376-A
+								<br>Guadalajara, Jalisco, México, 44810</p>
+							</li>
+							<li>
+								<p><i class="icon ion-android-mail highlight"></i>
+									<a href="mailto:david.lares@iterdux.com.mx">
+										david.lares@iterdux.com.mx</a>
+								</p>
+							</li>
+						</ul>
+				<div class="col-md-3 col-sm-6">
+					<h4>Acerca de</h4>
+					<p>Somos una firma de asesoría empresarial integral para micros y pequeñas empresas del giro comercial en salud, alimentación y belleza.</p>
+				</div>
+			</div>
+		</div>
+		<!-- Star Script get year -->
+		<div class="text-center">
+			<p>©<script type="text/javascript">
+			document.write(new Date().getFullYear());
+			</script> <a href="index.html" > Iterdux.</a> Todos los derechos reservados. Desarrollado por Mouster Studio</p>
+		</div>
+		<!-- End Script get year-->
+	</footer>
+		<!--End Footer-->
 
 
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
-</html>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js" integrity="sha256-4lietOiwRDBKx1goZZbRiwB06L+/bPYEGDIKZt82bgg=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</body>
+	</html>
