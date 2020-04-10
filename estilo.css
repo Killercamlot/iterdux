@@ -1,31 +1,75 @@
-  /*--- Background 1 ---*/
-  .fondo-Slider{
-    background: url("img/headerConsultorias.jpg");
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    z-index: -2;
+/*--- Background 1 ---*/
+.fondo-Slider{
+	background: url("imgs/headerConsultorias.jpg");
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
-  }
-  /*----- Footer 1 -----*/
-  .footer-color {
-      background-color: #252525;
-      color: #7e7e7e;
-      padding: 55px 0px 0 0;
-      margin-bottom: 0px
-  }
+.fondo-Header{
+	background: url("http://dragonball.sullca.com/wp-content/uploads/2015/07/Dragon-Ball-Super-online.jpg");
+	background-size: cover;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
 
-  footer h4 {
-      font-size: 16px;
-      color:red;
-      text-transform: uppercase;
-  }
-  footer p {
-      font-size: 13px;
-      color: #a0a0a0;
-  }
-  .contact-details {
-      list-style: none;
-      margin: 0;
-      padding: 0
-  }
+.contenido{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	box-sizing: border-box;
+}
+
+/*----- Footer 1 -----*/
+.footer-color {
+		background-color: #252525;
+		color: #7e7e7e;
+}
+
+footer h4 {
+		font-size: 16px;
+		color:red;
+		text-transform: uppercase;
+}
+
+
+*{
+	border: 1px solid red;
+}
+
+/***Covers***/
+
+.hero-text {
+	font-size: 3.5rem;
+	text-decoration-color: purple;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+/***FOOTER***/
+
+.footer{
+	width: 100%;
+	float: right;
+}
+
+.footer-list{
+	list-style-type: none;
+	padding: 0;
+}
+
+@media (min-width: 1360px) {
+    nav { max-width: 1903px; }
+}
+@media (max-width: 1360px) {
+    nav { max-width: 1343px; }
